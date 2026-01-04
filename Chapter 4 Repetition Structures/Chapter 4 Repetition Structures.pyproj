@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ad06543c-4331-4ea8-b1f1-d41aca189285</ProjectGuid>
+    <ProjectGuid>61c03532-3114-43e0-aa85-1381afc0925b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SoftwareSales.py</StartupFile>
+    <StartupFile>weightLoss.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter 3 Decision Structures and Boolean Logic</Name>
-    <RootNamespace>Chapter 3 Decision Structures and Boolean Logic</RootNamespace>
+    <Name>Chapter 4 Repetition Structures</Name>
+    <RootNamespace>Chapter 4 Repetition Structures</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,18 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AgeClassifier.py" />
-    <Compile Include="AreasOfRectangles.py" />
-    <Compile Include="BookClubPoints.py" />
-    <Compile Include="ColorMixer.py" />
-    <Compile Include="DayOfTheWeek.py" />
-    <Compile Include="HotDogCookoutCalc.py" />
-    <Compile Include="MagicDates.py" />
-    <Compile Include="MassAndWeight.py" />
-    <Compile Include="MoneyCountingGame.py" />
-    <Compile Include="RomanNumerals.py" />
-    <Compile Include="RoulletteWheelColors.py" />
-    <Compile Include="SoftwareSales.py" />
+    <Compile Include="BudgetAnalysis.py" />
+    <Compile Include="BugCollector.py" />
+    <Compile Include="CaloriesBurned.py" />
+    <Compile Include="celsiusTable.py" />
+    <Compile Include="DistanceTraveled.py" />
+    <Compile Include="oceanLevels.py" />
+    <Compile Include="penniesForPay.py" />
+    <Compile Include="rainfall.py" />
+    <Compile Include="sumOfNumbers.py" />
+    <Compile Include="TuitionIncrease.py" />
+    <Compile Include="weightLoss.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
